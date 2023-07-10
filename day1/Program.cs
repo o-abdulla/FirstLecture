@@ -77,3 +77,37 @@ if(y == null)
 
 // nonnullable
 // int z = null
+
+
+// exercises
+//1
+Console.WriteLine("Enter Some Text");
+string ex1 = Console.ReadLine();
+Console.WriteLine(ex1);
+
+//2
+Console.WriteLine("Enter a number");
+int ex2 = int.Parse(Console.ReadLine());
+ex2++;
+
+//3
+Console.WriteLine("Enter a number");
+double ex3 = int.Parse(Console.ReadLine());
+ex3 += .5;
+Console.WriteLine(ex3);
+
+//4
+Console.WriteLine("Enter the first number");
+double ex4 = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter the second number");
+double ex42 = double.Parse(Console.ReadLine());
+double sum = ex4 + ex42;
+Console.WriteLine(sum);
+
+//5
+Console.WriteLine("Enter the first number");
+double ex5 = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter the second number");
+double ex52 = double.Parse(Console.ReadLine());
+double sum5 = ex4 * ex42;
+Console.WriteLine(sum5);
